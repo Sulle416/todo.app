@@ -1,0 +1,70 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 100%;
+  height: 100vh;
+}
+
+.sub-container-one{
+  background-color: aqua;
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: start;
+  gap: 20px;
+}
+
+.sub-container-two{
+   display: flex;
+   flex-direction: row;
+   background-color: green;
+   justify-content: space-between;
+   gap: 20px;
+}
+
+.container-left{
+  background-color: red;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-right{
+  background-color: yellow;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.todo-input{
+  padding: 10px;
+}
+
+.input-button{
+  padding: 10px;
+  border-radius: 10px;
+  background-color: chartreuse;
+  font-size: large;
+  color: brown;
+}
+
+
+table{
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,td{
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th{
+  background-color: #f2f2f2;
+}
